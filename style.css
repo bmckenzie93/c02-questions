@@ -21,14 +21,10 @@ p:not(:last-child) {
 }
 
 
-
-  /* 
-    UTILITY 
-  */
-
 /* container */
 .container {
   width: 70%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -213,7 +209,6 @@ section:nth-child(even) header h2{
 .resource-item {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  
 }
 
   .resource-item a {
@@ -246,11 +241,50 @@ section:nth-child(even) header h2{
 
 /* free find */
 .free-find {
-  margin: 0 0 0 auto;
+  margin: 0 auto 1rem;
 }
+
+
 
   /* 
     RESPONSIVE DESIGN 
   */
 
+@media(max-width: 1000px) {
+  .main-header-quote {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .card {
+    grid-column: 1/3;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  section,
+  .footer {
+    padding: 2rem 0;
+  }
+
+  .section-header {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
   
+    .section-header h1 {
+      margin-bottom: 1.5rem;
+      font-size: 1.7rem;
+    }
+
+  
+  .resource-item {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
