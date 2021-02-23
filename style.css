@@ -23,8 +23,8 @@ p:not(:last-child) {
 
 /* container */
 .container {
-  width: 70%;
-  max-width: 1200px;
+  width: 80%;
+  max-width: 1900px;
   margin: 0 auto;
 }
 
