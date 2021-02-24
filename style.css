@@ -31,6 +31,7 @@ p:not(:last-child) {
 /* card */
 .card {
   height: 100%;
+  opacity: 0;
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -42,12 +43,11 @@ p:not(:last-child) {
   margin-bottom: 2rem;
   box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .4);
   text-align: center;
-  transition: all .5s ease;
 }
 
   .card:hover {
     box-shadow: 0 .4rem .6rem rgba(0, 0, 0, .6);
-    transform: translateY(-.5rem);
+    /* transform: translateY(-.5rem); */
   }
 
   .card-grid {
@@ -131,6 +131,7 @@ p:not(:last-child) {
   min-height: 8rem;
   background-color: #1980e6;
   color: #fff;
+  text-align: center;
 }
 
   .main-header .container {
@@ -185,7 +186,7 @@ section:nth-child(even) header h2{
 }
   .resources .card:hover {
     box-shadow: 0 .4rem .6rem rgba(0, 0, 0, .8);
-    transform: none;
+    /* transform: none; */
   }
 
 .resources .card-number {
@@ -213,7 +214,7 @@ section:nth-child(even) header h2{
 
   .resource-item a {
     color: #1980e6;
-    transition: all .3s ease;
+    /* transition: all .3s ease; */
   }
 
   .resource-item a:hover {
